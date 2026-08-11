@@ -1,0 +1,41 @@
+## Лицензия и правовой статус
+
+© Гурин Сергей Евгеньевич, к.т.н., 2026.
+Проект «Система стандартов Гурина» (MFO-NS-12.3.4, TAD-1, DP-12.3.4, Addition 1 to DP, logic\_3d\_model\_v5б) распространяется на условиях лицензии [**Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0**](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ru)) https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ru
+
+**Разрешается:**
+
+* Копирование и распространение в некоммерческих целях.
+* Использование для внутренних исследований и академической работы.
+
+**Запрещается:**
+
+* Коммерческое использование (включая продажу доступов к API, платным курсам и SaaS-сервисам на базе методологии).
+* Создание и распространение производных работ (модификаций, адаптаций, переводов, сокращений). Целостность нормативного ядра является абсолютным императивом.
+
+
+
+
+
+License and legal status
+
+© Gurin Sergey Evgenievich, Candidate of Technical Sciences, 2026.
+
+The “Gurin Standards System” project (MFO-NS-12.3.4, TAD-1, DP-12.3.4, Addition 1 to DP, logic\_3d\_model\_v5b) is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ru
+
+It is permitted to:
+
+Copying and distribution for non‑commercial purposes.
+
+Use for internal research and academic work.
+
+Prohibited:
+
+Commercial use (including selling access to APIs, paid courses, and SaaS services based on the methodology).
+
+Creation and distribution of derivative works (modifications, adaptations, translations, abridgments). The integrity of the normative core is an absolute imperative.
+
+
+
+
+

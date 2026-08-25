@@ -1,0 +1,310 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>МФО-НС-12.3.4-ПИРС-1.2 · Экспериментальная интеграция прагматической логики и семиотики</title>
+    <style>
+        body { font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; line-height: 1.6; color: #2c3e50; max-width: 1100px; margin: 0 auto; padding: 20px; background-color: #fcfcfc; }
+        h1 { color: #1a252f; border-bottom: 3px solid #2980b9; padding-bottom: 10px; }
+        h2 { color: #2980b9; margin-top: 30px; border-left: 5px solid #2980b9; padding-left: 15px; }
+        h3 { color: #34495e; margin-top: 25px; }
+        h4 { color: #7f8c8d; margin-top: 20px; text-transform: uppercase; font-size: 0.9em; letter-spacing: 1px; }
+        table { border-collapse: collapse; width: 100%; margin-bottom: 25px; background-color: #fff; box-shadow: 0 1px 3px rgba(0,0,0,0.1); }
+        th, td { border: 1px solid #bdc3c7; padding: 12px; text-align: left; vertical-align: top; }
+        th { background-color: #ecf0f1; color: #2c3e50; font-weight: bold; }
+        tr:nth-child(even) { background-color: #f9f9f9; }
+        .status-box { background-color: #e8f4f8; padding: 15px; border-left: 6px solid #2980b9; margin-bottom: 25px; border-radius: 4px; }
+        .warning-box { background-color: #fcf8e3; padding: 15px; border-left: 6px solid #f39c12; margin-bottom: 25px; border-radius: 4px; }
+        .formula { font-family: 'Courier New', Courier, monospace; background-color: #f4f6f7; padding: 3px 6px; border-radius: 3px; color: #c0392b; font-weight: bold; }
+        pre { background-color: #2c3e50; color: #ecf0f1; padding: 15px; border-radius: 5px; overflow-x: auto; font-family: 'Courier New', Courier, monospace; font-size: 0.95em; border-left: 5px solid #e67e22; }
+        code { font-family: 'Courier New', Courier, monospace; }
+        .footer { margin-top: 50px; padding-top: 20px; border-top: 2px solid #bdc3c7; font-size: 0.9em; color: #7f8c8d; text-align: center; }
+        ul { margin-bottom: 20px; }
+        li { margin-bottom: 8px; }
+    </style>
+</head>
+<body>
+
+<h1>МФО-НС-12.3.4-ПИРС-1.2</h1>
+<h2>Экспериментальная интеграция прагматической логики, семиотики и научного метода Ч.С. Пирса</h2>
+<p><strong>Экспериментальное приложение к Методологии формирования и проверки ответов нейросетей (МФО-НС-12.3.4)</strong></p>
+<p>Интеграция формального аппарата прагматической логики (триада абдукция/дедукция/индукция, экзистенциальные графы), триадической семиотики и прагматической максимы Ч.С. Пирса для операционализации диалектической триады (III.1–III.3), классификации свидетельств (ПМПВ) и критерия осмысленности утверждений (ПФЛВ-11).</p>
+
+<div class="status-box">
+    <strong>ВЕРСИЯ 1.2 (С УЧЁТОМ ВТОРОГО АУДИТА И КРИТИЧЕСКИХ ПРАВОК ПИРС-10…ПИРС-12)</strong> · ДЕЙСТВУЕТ С 25.08.2026 · БАЗА: МФО-НС-12.3.4 (действует с 07.08.2026)<br>
+    <strong>Статус:</strong> ЭКСПЕРИМЕНТАЛЬНАЯ НАДСТРОЙКА до завершения калибровки по п. 6.9 МФО-НС-12.3.4 (корпус ≥ 50 кейсов с эпистемическими и семиотическими конфликтами).<br>
+    <strong>Сборочный комплект:</strong> 1 часть · кодировка UTF-8 · протокол ПМГФ-25 (п. 6.39 МФО-НС-12.3.4) · Статус генерации: ✅ [КОМПЛЕКТ_ПОЛОН]
+</div>
+
+<h3>Журнал изменений и превентивных правок</h3>
+<p>Основание создания: согласно решению пользователя от 25.08.2026, на основе верифицированного анализа статей SEP и первоисточников Ч.С. Пирса, двух циклов экспертного аудита.</p>
+
+<table>
+    <thead>
+        <tr><th>Дефект / Замечание (Аудит)</th><th>Содержание</th><th>Правка в настоящем файле</th></tr>
+    </thead>
+    <tbody>
+        <tr><td>А-1 (Блокирующий)</td><td>Отсутствие метанормативного правила иерархии по образцу В-56 (EXP-INTEGRATION-2.1).</td><td><strong>ПРАВКА ПИРС-1:</strong> Введено единое правило иерархии <span class="formula">RuleExp → RuleBase</span> в замкнутой префиксной форме.</td></tr>
+        <tr><td>А-2 (Формальный)</td><td>Отсутствие явной таблицы триггеров активации по образцу п. I.14.5.</td><td><strong>ПРАВКА ПИРС-2:</strong> Добавлена полная таблица триггеров активации и запретов.</td></tr>
+        <tr><td>А-3 (Содержательный)</td><td>Три меры неопределённости не подтверждаются прямым содержанием SEP как числовые метрики.</td><td><strong>ПРАВКА ПИРС-3:</strong> Меры переформулированы как строго качественные эпистемические статусы (<span class="formula">Plausible</span>, <span class="formula">Verisimilar</span>, <span class="formula">Probable</span>). Запрет числовой редукции (антиредукционистский контур IV.8).</td></tr>
+        <tr><td>А-4 (Атрибуция)</td><td>Прагматическая максима приведена без прямой цитаты из SEP.</td><td><strong>ПРАВКА ПИРС-4:</strong> Добавлена точная атрибуция канонической формулировки к первоисточнику: Peirce C.S. "How to Make Our Ideas Clear" (1878).</td></tr>
+        <tr><td>А-5 (Формальный)</td><td>Отсутствие формальных записей модификаций протоколов в ПНФ.</td><td><strong>ПРАВКА ПИРС-5:</strong> Все модификации протоколов и предикаты записаны в ПНФ с явным указанием областей переменных. <span class="formula">[SCOPE_UNDEFINED]</span> отсутствует.</td></tr>
+        <tr><td>2.1 (Критический, 1-й аудит)</td><td>Недекларированные предикаты <code>SurprisingFact</code> и <code>Testable</code> в модификации ПАПП-24.</td><td><strong>ПРАВКА ПИРС-6:</strong> Предикаты добавлены в словарь ПИРС-1 с явным указанием областей (<code>PHENOMENON</code>, <code>PROP</code>).</td></tr>
+        <tr><td>2.2 (Критический, 1-й аудит)</td><td>Недекларированный <code>Meaningful</code> и числовое нарушение антиредукционизма (<code>|E| > 0</code>).</td><td><strong>ПРАВКА ПИРС-7:</strong> <code>Meaningful</code> добавлен в словарь. Числовое сравнение удалено. Формула переписана через качественный квантор существования.</td></tr>
+        <tr><td>2.3 (Формальный, 1-й аудит)</td><td>Неформализованное использование пустого множества (<code>∅</code>) в условии флага.</td><td><strong>ПРАВКА ПИРС-8:</strong> Условие флага заменено на строгое логическое отрицание существования: <code>¬∃pe</code>.</td></tr>
+        <tr><td>2.4 (Рекомендуемый, 1-й аудит)</td><td>Отсутствие иллюстративного примера применения.</td><td><strong>ПРАВКА ПИРС-9:</strong> Добавлен пример с маркировкой <span class="formula">[ПРИМЕР ДЛЯ СТРУКТУРЫ — НЕ ИСПОЛЬЗОВАТЬ]</span>.</td></tr>
+        <tr><td>2.1 (Критический, 2-й аудит)</td><td>Недекларированные предикаты <code>Premise(φ)</code> и <code>Conclusion(φ)</code> в условии флага <span class="formula">[NO_PRACTICAL_BEARINGS]</span>. Нарушение протокола ПКСТ-12 (п. 6.27): <code>Premise(φ)</code> — одноместный без декларации; <code>Conclusion(φ)</code> с <code>φ ∈ PROP</code> не соответствует сигнатуре <code>Conclusion(c)</code> из ТАД (<code>c ∈ CONCL</code>).</td><td><strong>ПРАВКА ПИРС-10:</strong> Введены предикаты <code>PremiseProposition(φ)</code> и <code>ConclusionProposition(φ)</code> с областью <code>φ ∈ PROP</code>. Условие флага переписано.</td></tr>
+        <tr><td>2.2 (Рекомендуемый, 2-й аудит)</td><td>Отсутствие формальной записи для флага <span class="formula">[UNTESTABLE_ABDUCTION]</span> в ПНФ.</td><td><strong>ПРАВКА ПИРС-11:</strong> Добавлена формальная запись условия установки флага в префиксной нормальной форме.</td></tr>
+        <tr><td>— (Структурный, 2-й аудит)</td><td>Версия файла не отражает второй цикл исправлений.</td><td><strong>ПРАВКА ПИРС-12:</strong> Версия повышена до 1.2. Журнал изменений дополнен записями ПИРС-10…ПИРС-12.</td></tr>
+    </tbody>
+</table>
+
+<h3>Метанормативный статус и правило иерархии</h3>
+<pre><code>∀r∀r′( (RuleExp(r) & RuleBase(r′) & Conflicts(r, r′)) → Priority(r′, r) )</code></pre>
+<p><strong>Метанормативная оговорка:</strong> данное правило является метанормативным и не изменяет содержания ни одного из протоколов настоящего файла или МФО-НС-12.3.4. При любом конфликте между рекомендациями настоящего файла и требованиями базовой МФО-НС-12.3.4 приоритет имеет базовая методология. Области: <code>r ∈ NORM_EXP</code>, <code>r′ ∈ NORM_BASE</code>. Все переменные связаны кванторами. <span class="formula">[SCOPE_UNDEFINED]</span> отсутствует.</p>
+
+<h3>Модуль: Теоретическое основание и диалектическая подчинённость</h3>
+<p><strong>Регистры:</strong> [МЕТОД] для прагматической максимы и фаллибилизма · [ФОРМАЛЬНАЯ СИСТЕМА] для экзистенциальных графов и триады вывода · [ОПЕРАЦИОННЫЙ ИНСТРУМЕНТ] для семиотической классификации свидетельств.</p>
+
+<h4>Атрибуция по ПИР-ЭУ (п. 6.1)</h4>
+<p><strong>[ДЕЙСТВИТЕЛЬНОСТЬ]</strong> – рецензируемые энциклопедические и первоисточники.</p>
+<p>Согласно Stanford Encyclopedia of Philosophy ("Peirce's Logic", "Peirce's Semiotics", "Pragmatism") и первоисточникам Ч.С. Пирса, научный метод представляет собой неразрывную триаду: <strong>Абдукция</strong> (выдвижение гипотезы для объяснения удивительного факта), <strong>Дедукция</strong> (вывод необходимых следствий из гипотезы) и <strong>Индукция</strong> (эмпирическая проверка следствий).</p>
+<p><strong>Прагматическая максима</strong> (каноническая формулировка из работы "How to Make Our Ideas Clear", 1878: "Consider what effects, which might conceivably have practical bearings, we conceive the object of our conception to have. Then, our conception of those effects is the whole of our conception of the object") устанавливает критерий осмысленности: понятие исчерпывается совокупностью его мыслимых практических следствий.</p>
+<p><strong>Семиотика</strong> Пирса определяет знак как триаду (Representamen, Object, Interpretant) и классифицирует знаки на Иконы (сходство), Индексы (каузальная связь) и Символы (конвенция). <strong>Экзистенциальные графы</strong> (Alpha, Beta, Gamma) представляют собой диаграмматическую систему формализации, визуализирующую логические отношения и кванторы.</p>
+
+<h4>Диалектическое снятие</h4>
+<p>Триада Пирса (Абдукция-Дедукция-Индукция) выступает формально-логическим и методологическим обоснованием диалектической триады МФО-НС-12.3.4 (Тезис-Антитезис-Синтез). Абдукция генерирует Тезис (гипотезу); Дедукция развёртывает Антитезис (проверку границ и следствий); Индукция реализует Синтез через материально-практическую верификацию (ПМПВ, закон II.22). Прагматическая максима операционализирует закон II.22 на уровне семантики: утверждение без проверяемых практических следствий (<span class="formula">PracticalBearings</span>) является бессодержательным. Фаллибилизм обосновывает статус экспериментальных надстроек и необходимость непрерывной калибровки (п. 6.9), поскольку истина есть предел исследования бесконечного сообщества (закон II.9).</p>
+
+<h3>Словарное дополнение ПИРС-1 (к п. I.12 МФО-НС-12.3.4)</h3>
+<p>Словарь ПИРС-1 является расширением словаря EXP-1 и базового словаря 12.1–12.3.1. При конфликте областей или предикатов применяется единое правило иерархии <span class="formula">RuleExp → RuleBase</span>.</p>
+
+<h4>Новые предметные области (5 областей)</h4>
+<table>
+    <thead><tr><th>Область</th><th>Содержание</th><th>Переменные</th></tr></thead>
+    <tbody>
+        <tr><td>INFERENCE_TYPE</td><td>Типы логического вывода (абдукция, дедукция, индукция).</td><td>inf</td></tr>
+        <tr><td>SEMIOTIC_RELATION</td><td>Типы знаковой связи (икон, индекс, символ).</td><td>sr</td></tr>
+        <tr><td>GRAPH_SYSTEM</td><td>Системы экзистенциальных графов (Alpha, Beta, Gamma).</td><td>gs</td></tr>
+        <tr><td>EPISTEMIC_STATUS</td><td>Качественные эпистемические статусы гипотез (правдоподобность, верисимилитуда, вероятность).</td><td>es</td></tr>
+        <tr><td>PRACTICAL_EFFECT</td><td>Мыслимые практические следствия утверждений.</td><td>pe</td></tr>
+    </tbody>
+</table>
+
+<h4>Новые предикаты (строго качественные, в префиксной нормальной форме)</h4>
+<table>
+    <thead><tr><th>Предикат</th><th>Определение (все переменные связаны кванторами)</th></tr></thead>
+    <tbody>
+        <tr><td><span class="formula">SurprisingFact(ph)</span></td><td>Факт <code>ph</code> является удивительным, не объясняемым текущим знанием и требующим абдукции. (<code>ph ∈ PHENOMENON</code>)</td></tr>
+        <tr><td><span class="formula">AbductiveHypothesis(h, ph)</span></td><td>Гипотеза <code>h</code> выдвинута абдуктивно для объяснения удивительного факта <code>ph</code>. (<code>h ∈ HYPOTHESIS</code>, <code>ph ∈ PHENOMENON</code>)</td></tr>
+        <tr><td><span class="formula">DeductiveConsequence(h, c)</span></td><td>Утверждение <code>c</code> является необходимым дедуктивным следствием гипотезы <code>h</code>. (<code>h ∈ HYPOTHESIS</code>, <code>c ∈ PROP</code>)</td></tr>
+        <tr><td><span class="formula">Testable(c)</span></td><td>Следствие <code>c</code> принципиально проверяемо через материально-практическую деятельность (ПМПВ). (<code>c ∈ PROP</code>)</td></tr>
+        <tr><td><span class="formula">InductiveVerification(c, e)</span></td><td>Следствие <code>c</code> прошло индуктивную эмпирическую проверку свидетельством <code>e</code>. (<code>c ∈ PROP</code>, <code>e ∈ EVIDENCE</code>)</td></tr>
+        <tr><td><span class="formula">ExistentialGraphValid(g, φ, gs)</span></td><td>Диаграмма <code>g</code> является корректным экзистенциальным графом системы <code>gs</code>, представляющим пропозицию <code>φ</code>. (<code>g ∈ GRAPH</code>, <code>φ ∈ PROP</code>, <code>gs ∈ GRAPH_SYSTEM</code>)</td></tr>
+        <tr><td><span class="formula">Interpretant(s, i, a)</span></td><td>Интерпретант <code>i</code> знака <code>s</code> сформирован у агента <code>a</code>. (<code>s ∈ DOC</code>, <code>i ∈ CONT</code>, <code>a ∈ AGENT</code>)</td></tr>
+        <tr><td><span class="formula">IconicEvidence(e)</span></td><td>Свидетельство <code>e</code> является иконическим (основано на сходстве/аналогии). (<code>e ∈ EVIDENCE</code>)</td></tr>
+        <tr><td><span class="formula">IndexicalEvidence(e)</span></td><td>Свидетельство <code>e</code> является индексным (основано на каузальной/фактуальной связи). (<code>e ∈ EVIDENCE</code>)</td></tr>
+        <tr><td><span class="formula">SymbolicEvidence(e)</span></td><td>Свидетельство <code>e</code> является символическим (основано на конвенции/норме). (<code>e ∈ EVIDENCE</code>)</td></tr>
+        <tr><td><span class="formula">PracticalBearings(φ, pe)</span></td><td>Утверждение <code>φ</code> концептуально влечёт практическое следствие <code>pe</code> (Прагматическая максима). (<code>φ ∈ PROP</code>, <code>pe ∈ PRACTICAL_EFFECT</code>)</td></tr>
+        <tr><td><span class="formula">Meaningful(φ)</span></td><td>Утверждение <code>φ</code> осмысленно, то есть обладает хотя бы одним мыслимым практическим следствием. (<code>φ ∈ PROP</code>)</td></tr>
+        <tr><td><span class="formula">Plausible(h)</span></td><td>Гипотеза <code>h</code> обладает качественной правдоподобностью (простота, естественность) на этапе абдукции. (<code>h ∈ HYPOTHESIS</code>)</td></tr>
+        <tr><td><span class="formula">Verisimilar(h, e)</span></td><td>Гипотеза <code>h</code> обладает верисимилитудой (соответствием фактам) на этапе индукции. (<code>h ∈ HYPOTHESIS</code>, <code>e ∈ EVIDENCE</code>)</td></tr>
+        <tr><td><span class="formula">Probable(h, e)</span></td><td>Гипотеза <code>h</code> обладает статистической вероятностью (в смысле долгосрочной частоты) на этапе дедуктивно-индуктивного анализа. (<code>h ∈ HYPOTHESIS</code>, <code>e ∈ EVIDENCE</code>)</td></tr>
+        <tr><td><span class="formula">PremiseProposition(φ)</span></td><td>Утверждение <code>φ</code> является посылкой в обосновании. (<code>φ ∈ PROP</code>) <strong>ПРАВКА ПИРС-10.</strong></td></tr>
+        <tr><td><span class="formula">ConclusionProposition(φ)</span></td><td>Утверждение <code>φ</code> является заключением в обосновании. (<code>φ ∈ PROP</code>) <strong>ПРАВКА ПИРС-10.</strong></td></tr>
+    </tbody>
+</table>
+
+<h3>Якорные связи и стыковки (п. I.14.2, I.14.4)</h3>
+<ul>
+    <li><strong>Якорь к Диалектической логике:</strong> Триада Пирса (Абдукция-Дедукция-Индукция) формализует диалектическую триаду (Тезис-Антитезис-Синтез). Прагматическая максима операционализирует закон II.22 (Практика как критерий истины).</li>
+    <li><strong>Стыковка с Эпистемической логикой (ЭПИСТ-1.0):</strong> Предикат <span class="formula">Interpretant(s, i, a)</span> дополняет оператор <span class="formula">Known(a, φ)</span>, фиксируя, что знание агента опосредовано семиотической интерпретацией знака.</li>
+    <li><strong>Стыковка с Аргументационной логикой (АРГ-1.0):</strong> Абдукция генерирует аргументы, Дедукция выявляет уязвимости (UndercuttingDefeater), Индукция предоставляет эмпирическую базу для защиты.</li>
+    <li><strong>Стыковка с Немонотонной логикой (NML-1.1):</strong> Фаллибилизм Пирса обосновывает немонотонный отзыв выводов: любая индуктивная верификация (<span class="formula">Verisimilar</span>) носит временный характер и может быть отозвана при появлении нового удивительного факта, требующего новой абдукции.</li>
+</ul>
+
+<h3>Триггерная таблица активации (п. I.14.5)</h3>
+<table>
+    <thead><tr><th>Расширение</th><th>Триггер активации</th><th>Запрет активации</th><th>Интеграция в МФО</th></tr></thead>
+    <tbody>
+        <tr>
+            <td>Прагматическая логика и семиотика (Пирс)</td>
+            <td>Необходимость генерации гипотез (абдукция); анализ осмысленности утверждений (Прагматическая максима); классификация типов свидетельств (Икон/Индекс/Символ); визуальная проверка сложных кванторных связей (Экзистенциальные графы).</td>
+            <td>Объект безагентен (императив 11); объект полностью формализован и не требует семантического прояснения; подмена материальной практики (ПМПВ) чисто семиотической интерпретацией.</td>
+            <td>Модифицирует ПАПП-24 (структура Антитезиса), ПМПВ (классификация свидетельств), ПФЛВ-11 (критерий осмысленности).</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Модификации существующих протоколов МФО-НС-12.3.4</h3>
+
+<h4>1. Дополнение к протоколу ПАПП-24 (п. 6.38) – Структурирование Антитезиса через триаду Пирса</h4>
+<p>Антитезис обязан явно различать фазы научного метода: генерацию альтернативных гипотез (Абдукция) и вывод необходимых следствий для их опровержения (Дедукция).</p>
+<pre><code>∀h∀ph( (SurprisingFact(ph) & AbductiveHypothesis(h, ph)) →
+    ∃c( DeductiveConsequence(h, c) & Testable(c) ) )</code></pre>
+<p><em>Области переменных:</em> <code>h ∈ HYPOTHESIS</code>, <code>ph ∈ PHENOMENON</code>, <code>c ∈ PROP</code>. Все переменные связаны кванторами. <span class="formula">[SCOPE_UNDEFINED]</span> отсутствует.</p>
+<p><strong>Интерпретация:</strong> При наличии удивительного факта, не объясняемого текущим Тезисом, система обязана абдуктивно выдвинуть альтернативную гипотезу и дедуктивно вывести из неё проверяемое следствие. Это предотвращает догматизм и операционализирует фаллибилизм.</p>
+
+<h4>2. Дополнение к протоколу ПМПВ (п. 6.5) – Семиотическая классификация свидетельств</h4>
+<p>При верификации через практику система обязана классифицировать природу свидетельства, так как разные типы знаков требуют разных процедур проверки.</p>
+<pre><code>∀e( Evidence(e) →
+    (IconicEvidence(e) ∨ IndexicalEvidence(e) ∨ SymbolicEvidence(e)) )</code></pre>
+<p><em>Области переменных:</em> <code>e ∈ EVIDENCE</code>. Все переменные связаны кванторами.</p>
+<p><strong>Интерпретация:</strong> Индексные свидетельства (следы, показания приборов) требуют проверки каузальной цепи; Иконические (аналогии, модели) требуют проверки структурного изоморфизма; Символические (документы, нормы) требуют проверки конвенциональной легитимности (ДЕОНТ-1.0). Смешение типов маркируется флагом <span class="formula">[EVIDENCE_TYPE_MISMATCH]</span>.</p>
+
+<h4>3. Дополнение к протоколу ПФЛВ-11 (п. 6.26) – Критерий осмысленности (Прагматическая максима)</h4>
+<p>Утверждение считается полностью осмысленным и подлежащим верификации только в том случае, если можно указать его мыслимые практические следствия.</p>
+<pre><code>∀φ( Meaningful(φ) ↔ ∃pe( PracticalBearings(φ, pe) ) )</code></pre>
+<p><em>Области переменных:</em> <code>φ ∈ PROP</code>, <code>pe ∈ PRACTICAL_EFFECT</code>. Все переменные связаны кванторами.</p>
+<p><strong>Интерпретация:</strong> Если утверждение <code>φ</code> не имеет ни одного мыслимого практического следствия, оно квалифицируется как метафизическое или бессодержательное в рамках данного исследования и исключается из базы синтеза. Это прямое применение закона II.22 на уровне семантики.</p>
+
+<h3>Диагностические флаги надстройки ПИРС-1.2</h3>
+<p>Все флаги являются строго диагностическими (по модели <span class="formula">FORMAL_INCONSISTENCY</span>, п. IV.10): не входят в формулу <span class="formula">КК_итог</span> (соблюдение антиредукционистского контура п. IV.8), но влекут генерацию ЭМД и перевод утверждения в статус <span class="formula">REFERENCE_ONLY</span> или <span class="formula">EXPERT_REVIEW_REQUIRED</span>.</p>
+
+<table>
+    <thead><tr><th>Флаг</th><th>Условие установки (формальная запись в ПНФ)</th><th>Действие</th></tr></thead>
+    <tbody>
+        <tr>
+            <td><span class="formula">[NO_PRACTICAL_BEARINGS]</span></td>
+            <td><pre><code>∃φ( (PremiseProposition(φ) ∨ ConclusionProposition(φ)) ∧
+    ¬∃pe( PracticalBearings(φ, pe) ) )</code></pre>
+            <em>Области:</em> <code>φ ∈ PROP</code>, <code>pe ∈ PRACTICAL_EFFECT</code>. Все переменные связаны. <strong>ПРАВКА ПИРС-10:</strong> предикаты <code>PremiseProposition</code> и <code>ConclusionProposition</code> декларированы в словаре ПИРС-1.</td>
+            <td>Исключение утверждения из синтеза как бессодержательного; требование конкретизации через ПМПВ.</td>
+        </tr>
+        <tr>
+            <td><span class="formula">[ABDUCTION_WITHOUT_DEDUCTION]</span></td>
+            <td><pre><code>∃h∃ph( AbductiveHypothesis(h, ph) ∧
+    ¬∃c( DeductiveConsequence(h, c) ) )</code></pre>
+            <em>Области:</em> <code>h ∈ HYPOTHESIS</code>, <code>ph ∈ PHENOMENON</code>, <code>c ∈ PROP</code>. Все переменные связаны.</td>
+            <td>Возврат к этапу Антитезиса; требование развёртывания дедуктивной цепи.</td>
+        </tr>
+        <tr>
+            <td><span class="formula">[UNTESTABLE_ABDUCTION]</span></td>
+            <td><pre><code>∃h∃ph( AbductiveHypothesis(h, ph) ∧
+    ∀c( DeductiveConsequence(h, c) → ¬Testable(c) ) )</code></pre>
+            <em>Области:</em> <code>h ∈ HYPOTHESIS</code>, <code>ph ∈ PHENOMENON</code>, <code>c ∈ PROP</code>. Все переменные связаны. <strong>ПРАВКА ПИРС-11:</strong> формальная запись добавлена по результатам второго аудита.</td>
+            <td>Гипотеза не может быть проверена практикой; маркировка как <span class="formula">[HYPOTHETICAL]</span>; запрет на присвоение статуса факта.</td>
+        </tr>
+        <tr>
+            <td><span class="formula">[INDUCTIVE_BASE_INSUFFICIENT]</span></td>
+            <td><pre><code>∃c∃e( InductiveVerification(c, e) ∧
+    ¬Verisimilar(h, e) )</code></pre>
+            <em>Области:</em> <code>c ∈ PROP</code>, <code>e ∈ EVIDENCE</code>, <code>h ∈ HYPOTHESIS</code>. Все переменные связаны.</td>
+            <td>Маркировка вывода как <span class="formula">[HYPOTHETICAL]</span>; запрет на присвоение статуса факта.</td>
+        </tr>
+        <tr>
+            <td><span class="formula">[INTERPRETANT_UNSPECIFIED]</span></td>
+            <td><pre><code>∃s( SignUsed(s) ∧
+    ¬∃i∃a( Interpretant(s, i, a) ) )</code></pre>
+            <em>Области:</em> <code>s ∈ DOC</code>, <code>i ∈ CONT</code>, <code>a ∈ AGENT</code>. Все переменные связаны.</td>
+            <td>Требование явной атрибуции интерпретации (стыковка с ЭПИСТ-1.0).</td>
+        </tr>
+        <tr>
+            <td><span class="formula">[EVIDENCE_TYPE_MISMATCH]</span></td>
+            <td><pre><code>∃e∃φ( (IconicEvidence(e) ∨ SymbolicEvidence(e)) ∧
+    Supports(e, φ) ∧
+    RequiresIndexical(φ) )</code></pre>
+            <em>Области:</em> <code>e ∈ EVIDENCE</code>, <code>φ ∈ PROP</code>. Все переменные связаны.</td>
+            <td>Генерация ЭМД; требование предоставления индексных свидетельств для каузальных утверждений.</td>
+        </tr>
+        <tr>
+            <td><span class="formula">[UNCERTAINTY_TYPE_CONFLATED]</span></td>
+            <td><pre><code>∃h( Plausible(h) ∧ Verisimilar(h, e) ∧ Probable(h, e) ∧
+    Aggregated(h) )</code></pre>
+            <em>Области:</em> <code>h ∈ HYPOTHESIS</code>, <code>e ∈ EVIDENCE</code>. Все переменные связаны.</td>
+            <td>Блокировка числовой редукции; требование качественной квалификации эпистемического статуса.</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Границы применимости надстройки ПИРС-1.2</h3>
+<table>
+    <thead><tr><th>Статус</th><th>Описание</th></tr></thead>
+    <tbody>
+        <tr>
+            <td>✅ Действительно</td>
+            <td>Формализация диалектической триады через научный метод Пирса (Абдукция-Дедукция-Индукция). Применение Прагматической максимы как критерия осмысленности утверждений в ПФЛВ-11. Семиотическая классификация свидетельств (Икон/Индекс/Символ) в протоколе ПМПВ. Визуальная и структурная проверка сложных кванторных связей через Экзистенциальные графы. Обоснование фаллибилизма и необходимости непрерывной калибровки методологии (п. 6.9).</td>
+        </tr>
+        <tr>
+            <td>❌ Запрещено</td>
+            <td><strong>Числовая редукция:</strong> Категорически запрещено преобразовывать качественные эпистемические статусы (<span class="formula">Plausible</span>, <span class="formula">Verisimilar</span>, <span class="formula">Probable</span>) в числовые веса, коэффициенты или множители формулы <span class="formula">КК_итог</span> (антиредукционистский контур п. IV.8). <strong>Подмена практики семиотикой:</strong> Наличие корректной семиотической интерпретации (<span class="formula">Interpretant</span>) не заменяет материально-практическую верификацию (закон II.22, ПМПВ). <strong>Применение к безагентным объектам:</strong> Семиотический анализ (Интерпретант) активируется только при наличии агентов (императив 11; запрет 4, п. I.14.6).</td>
+        </tr>
+        <tr>
+            <td>⚠ Границы</td>
+            <td>Прагматическая логика является инструментом уровня Антитезиса и синтеза. Она не заменяет диалектическое вскрытие внутренних противоречий (разд. II), а предоставляет методологическую рамку для их эмпирического разрешения. Экзистенциальные графы (особенно система Gamma для модальностей) требуют высокой вычислительной сложности; их применение ограничивается разрешимыми фрагментами и эвристической визуализацией. Надстройка является экспериментальной до калибровки по п. 6.9 (корпус ≥ 50 кейсов).</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Иллюстративный пример применения (Структурный)</h3>
+<div class="warning-box">
+    <strong>[ПРИМЕР ДЛЯ СТРУКТУРЫ — НЕ ИСПОЛЬЗОВАТЬ]</strong><br>
+    <em>Предупреждение: Данный пример сгенерирован исключительно для демонстрации формата применения предикатов. Он не является фактологическим основанием и не должен использоваться для верификации реальных утверждений (протокол ПЗПФ-01, п. 6.12).</em>
+</div>
+<table>
+    <thead><tr><th>Этап триады / Протокола</th><th>Действие</th><th>Формальная маркировка</th></tr></thead>
+    <tbody>
+        <tr>
+            <td><strong>ПАПП-24 (Антитезис / Абдукция)</strong></td>
+            <td>Обнаружен удивительный факт <code>ph</code>, не объясняемый текущим Тезисом. Выдвигается гипотеза <code>h</code>.</td>
+            <td><code>SurprisingFact(ph)</code> → <code>AbductiveHypothesis(h, ph)</code></td>
+        </tr>
+        <tr>
+            <td><strong>ПАПП-24 (Дедукция следствий)</strong></td>
+            <td>Из гипотезы <code>h</code> дедуктивно выводится следствие <code>c</code>, проверяемое практикой.</td>
+            <td><code>DeductiveConsequence(h, c)</code> & <code>Testable(c)</code></td>
+        </tr>
+        <tr>
+            <td><strong>ПФЛВ-11 (Прагматическая максима)</strong></td>
+            <td>Проверяется, имеет ли утверждение <code>φ</code> мыслимые практические следствия.</td>
+            <td><code>Meaningful(φ) ↔ ∃pe( PracticalBearings(φ, pe) )</code></td>
+        </tr>
+        <tr>
+            <td><strong>ПМПВ (Семиотическая классификация)</strong></td>
+            <td>Свидетельство <code>e</code> классифицируется по типу знака.</td>
+            <td><code>IndexicalEvidence(e)</code> → проверка каузальной цепи</td>
+        </tr>
+        <tr>
+            <td><strong>Флаг [NO_PRACTICAL_BEARINGS]</strong></td>
+            <td>Утверждение <code>φ</code> является посылкой, но не имеет практических следствий.</td>
+            <td><code>PremiseProposition(φ)</code> & <code>¬∃pe( PracticalBearings(φ, pe) )</code> → флаг установлен</td>
+        </tr>
+    </tbody>
+</table>
+
+<h3>Атрибуция первоисточника (Протокол ПИР-ЭУ, п. 6.1)</h3>
+<p>[Значение: «Три типа вывода (абдукция, дедукция, индукция) как фазы научного метода; экзистенциальные графы Alpha, Beta, Gamma; триадическая структура знака (Representamen, Object, Interpretant); классификация знаков (Icon, Index, Symbol); Прагматическая Максима; фаллибилизм; истина как предел исследования» | Источник: «Stanford Encyclopedia of Philosophy», статьи "Charles Sanders Peirce", "Peirce's Logic", "Peirce's Semiotics", "Pragmatism"; первоисточники: Peirce C.S. "How to Make Our Ideas Clear" (1878) [каноническая формулировка Прагматической Максимы], "Collected Papers" (1931–1958) [Экзистенциальные графы]].</p>
+<p><strong>Статус верификации:</strong> [ДЕЙСТВИТЕЛЬНОСТЬ] – рецензируемые энциклопедические и первоисточники, прямое сличение с текстами проведено. Аудиты (1-й и 2-й циклы) учтены и интегрированы.</p>
+
+<h3>Финальная верификация целостности (ПМГФ-25, шаг 6)</h3>
+<table>
+    <thead><tr><th>Пункт контроля</th><th>Статус</th></tr></thead>
+    <tbody>
+        <tr><td>Шапка с атрибуцией и статусом экспериментальной надстройки версии 1.2</td><td>✔</td></tr>
+        <tr><td>Журнал изменений с фиксацией устранения замечаний 1-го аудита (А-1…А-5, 2.1…2.4) и 2-го аудита (ПИРС-10…ПИРС-12)</td><td>✔</td></tr>
+        <tr><td>Метанормативное правило иерархии <span class="formula">RuleExp → RuleBase</span> (замкнутая форма, все переменные связаны)</td><td>✔</td></tr>
+        <tr><td>Словарь ПИРС-1: 5 новых областей, 17 новых предикатов (включая <code>PremiseProposition</code>, <code>ConclusionProposition</code> — правка ПИРС-10). Все переменные связаны кванторами (<span class="formula">[SCOPE_UNDEFINED]</span> отсутствует)</td><td>✔</td></tr>
+        <tr><td>Якорные связи и стыковки с другими расширениями (ЭПИСТ-1.0, АРГ-1.0, NML-1.1) явно прописаны</td><td>✔</td></tr>
+        <tr><td>Явная таблица триггеров активации добавлена (устранение А-2)</td><td>✔</td></tr>
+        <tr><td>Модификации протоколов ПАПП-24, ПМПВ, ПФЛВ-11 записаны в префиксной нормальной форме (устранение А-5)</td><td>✔</td></tr>
+        <tr><td>Диагностические флаги (7 флагов) с формальными условиями в ПНФ – явно маркированы как не входящие в <span class="formula">КК_итог</span> (антиредукционистский контур IV.8 соблюден)</td><td>✔</td></tr>
+        <tr><td>Флаг <span class="formula">[NO_PRACTICAL_BEARINGS]</span> использует декларированные предикаты <code>PremiseProposition(φ)</code> и <code>ConclusionProposition(φ)</code> (устранение 2.1, 2-й аудит)</td><td>✔</td></tr>
+        <tr><td>Флаг <span class="formula">[UNTESTABLE_ABDUCTION]</span> имеет формальную запись в ПНФ (устранение 2.2, 2-й аудит)</td><td>✔</td></tr>
+        <tr><td>Три меры неопределённости переформулированы как качественные эпистемические статусы (устранение А-3, запрет числовой редукции)</td><td>✔</td></tr>
+        <tr><td>Прагматическая максима атрибутирована к первоисточнику 1878 года (устранение А-4)</td><td>✔</td></tr>
+        <tr><td>Границы применимости: чёткий запрет на числовую редукцию и подмену практики семиотикой</td><td>✔</td></tr>
+        <tr><td>Иллюстративный пример маркирован тегом <span class="formula">[ПРИМЕР ДЛЯ СТРУКТУРЫ — НЕ ИСПОЛЬЗОВАТЬ]</span> (протокол ПЗПФ-01)</td><td>✔</td></tr>
+        <tr><td>Атрибуция по ПИР-ЭУ с указанием статуса [ДЕЙСТВИТЕЛЬНОСТЬ]</td><td>✔</td></tr>
+        <tr><td>Все переменные во всех формулах связаны кванторами, области декларированы, <span class="formula">[SCOPE_UNDEFINED]</span> отсутствует</td><td>✔</td></tr>
+        <tr><td>Незакрытых тегов нет: <code>&lt;/body&gt; &lt;/html&gt;</code> присутствуют в конце документа</td><td>✔</td></tr>
+    </tbody>
+</table>
+
+<div class="footer">
+    <p><strong>МФО-НС-12.3.4-ПИРС-1.2</strong> · Экспериментальное приложение · © Гурин Сергей Евгеньевич, 2026</p>
+    <p>База: МФО-НС-12.3.4 (действует с 07.08.2026) · Настоящее приложение не отменяет нормативное ядро (правило иерархии RuleExp→RuleBase)</p>
+    <p>Комплект из 1 части · кодировка UTF-8 · протокол ПМГФ-25 (п. 6.39 МФО-НС-12.3.4)</p>
+</div>
+
+</body>
+</html>

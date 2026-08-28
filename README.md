@@ -1,7 +1,7 @@
 # МФО-НС-12.3.4  
 ## Методология формирования и проверки ответов нейросетей
 <p align="center">
-  <img width="200" src='https://github.com/kizuna-ai-lab/sokuji/raw/main/src/assets/logo.png">
+  <img src='https://github.com/kizuna-ai-lab/sokuji/raw/main/src/assets/logo.png">
 
 ### От генерации текста — к управляемому формированию знания
 

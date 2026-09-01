@@ -19,7 +19,7 @@
 
 License and legal status
 
-© Gurin Sergey Evgenievich, Candidate of Technical Sciences, 2026.
+© Gurin Sergey Evgenievich, Doctor of Technical Sciences, 2026.
 
 The “Gurin Standards System” project (MFO-NS-12.3.4, TAD-1, DP-12.3.4, Addition 1 to DP, logic\_3d\_model\_v5b) is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ru
 

@@ -3,7 +3,8 @@
   <img src="https://github.com/electronicseals-png/Methodology-for-generating-and-verifying-responses-from-Ai/blob/V2/Plakat.png">
 </p>
 
-## Обновлённая версия методологии представлена по ссылке: https://github.com/electronicseals-png/Methodology-for-generating-and-verifying-responses-from-Ai/tree/V3
+## Обновлённая актуальная версия методологии МФО-НС-13.3.3 представлена по ссылке: https://github.com/electronicseals-png/Methodology-for-generating-and-verifying-responses-from-Ai/tree/V3
+Представленную версию МФО-НС-12.3.4 рекомендуется использовать с целью изучения применения методологии на основании пояснений, представленных в HTML файлах, т.к. они наглядны и удобны для изучения по сравнению с компактным представлением методологии МФО-НС-13.3.3 в формате TXT, адаптированной под прочтения её LLM без потери токенов.
 
 ### От генерации текста — к управляемому формированию знания
 

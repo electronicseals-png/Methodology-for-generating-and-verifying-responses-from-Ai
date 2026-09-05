@@ -1,7 +1,7 @@
 ## Лицензия и правовой статус
 
 © Гурин Сергей Евгеньевич, к.т.н., 2026.
-Проект «Система стандартов Гурина» (МФО-НС-13.3.3.txt, logic_3d_model_v5.html, tad-3d-vr-2.2-protocol.html, Методика поверки.html, Тесты.html, ВЫЧИСЛ-1.0.txt) распространяется на условиях лицензии [**Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0**](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ru)) https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ru
+Проект «Система стандартов Гурина» (МФО-НС-13.3.3.txt, logic_3d_model_v5.html, tad-3d-vr-2.2-protocol.html, Методика поверки.html, Тесты.html, ВЫЧИСЛ-1.0.txt, ИГРЫ-1.0.txt) распространяется на условиях лицензии [**Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0**](https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ru)) https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ru
 
 **Разрешается:**
 
@@ -21,7 +21,7 @@ License and legal status
 
 © Gurin Sergey Evgenievich, Doctor of Technical Sciences, 2026.
 
-The “Gurin Standards System” project (МФО-НС-13.3.3.txt, logic_3d_model_v5.html, tad-3d-vr-2.2-protocol.html, Методика поверки.html, Тесты.html, ВЫЧИСЛ-1.0.txt) is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ru
+The “Gurin Standards System” project (МФО-НС-13.3.3.txt, logic_3d_model_v5.html, tad-3d-vr-2.2-protocol.html, Методика поверки.html, Тесты.html, ВЫЧИСЛ-1.0.txt, ИГРЫ-1.0.txt) is distributed under the terms of the Creative Commons Attribution-NonCommercial-NoDerivatives 4.0 International (CC BY-NC-ND 4.0) license https://creativecommons.org/licenses/by-nc-nd/4.0/deed.ru
 
 It is permitted to:
 

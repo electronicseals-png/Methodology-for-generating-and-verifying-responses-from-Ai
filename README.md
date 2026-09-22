@@ -116,7 +116,7 @@
 
 ### Области применения методологии
 <p align="center">
-  <img src="https://github.com/electronicseals-png/Methodology-for-generating-and-verifying-responses-from-Ai/blob/V3/Plakat.png">
+  <img src="https://github.com/electronicseals-png/Methodology-for-generating-and-verifying-responses-from-Ai/blob/V3/Comic_book.png">
 </p>
 
 ### Эмпирические наблюдения и границы применимости (P.S.) 📝
